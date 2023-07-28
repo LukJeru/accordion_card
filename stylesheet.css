@@ -8,6 +8,22 @@ body{
   width: 40rem;
   height: 30rem;
   display: flex;
-  background: url(images/bg-pattern-desktop.svg);
   background-color: white;
+  display: grid;
+  grid-template-columns: 5fr 1fr 5fr 1fr;
+  grid-template-rows: 2fr 3fr repeat(5, 1fr) 2fr;
+  border: none;
+  border-radius: 25px;
+  margin: 0 auto;
+}
+
+.left{
+  grid-column: 1/ span 1;
+  grid-row: 2/ span 6;
+  background-image: url(images/bg-pattern-desktop.svg);
+}
+
+.right{
+  grid-column: 3/ span 1;
+  grid-row: 2/ span 6;
 }
