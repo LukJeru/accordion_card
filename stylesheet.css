@@ -5,8 +5,8 @@ body{
 }
 
 .container{
-  width: 40rem;
-  height: 30rem;
+  width: 60rem;
+  height: 40rem;
   display: flex;
   background-color: white;
   display: grid;
@@ -26,4 +26,13 @@ body{
 .right{
   grid-column: 3/ span 1;
   grid-row: 2/ span 6;
+}
+
+.right p{
+  visibility: hidden;
+}
+
+.right h2{
+  color: hsl(237, 12%, 33%);
+  font-weight: 400;
 }
