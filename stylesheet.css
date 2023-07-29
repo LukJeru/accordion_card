@@ -19,8 +19,18 @@ body{
 
 .left{
   grid-column: 1/ span 1;
-  grid-row: 2/ span 6;
+  grid-row: 1/ span 8;
   background-image: url(images/bg-pattern-desktop.svg);
+  background-position: center right 1rem;
+  background-size: 120%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.left img {
+  position: relative;
+  top: 8rem;
+  right: 5rem;
 }
 
 .right{
