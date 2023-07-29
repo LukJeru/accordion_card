@@ -17,6 +17,8 @@ body{
   margin: 0 auto;
 }
 
+/*elements left column*/
+
 .left{
   grid-column: 1/ span 1;
   grid-row: 1/ span 8;
@@ -33,6 +35,8 @@ body{
   right: 5rem;
 }
 
+/*elements right column*/
+
 .right{
   grid-column: 3/ span 1;
   grid-row: 2/ span 6;
@@ -40,6 +44,19 @@ body{
 
 .right p{
   visibility: hidden;
+}
+
+.dropdown{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.dropdown img{
+  height: 1rem;
+}
+
+.right h1{
+  font-size: 2rem;
 }
 
 .right h2{
