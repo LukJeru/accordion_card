@@ -35,6 +35,13 @@ body{
   right: 5rem;
 }
 
+#würfel{
+  position: relative;
+  top: 28rem;
+  left: 8rem;
+  z-index: 1;
+}
+
 /*elements right column*/
 
 .right{
