@@ -61,6 +61,31 @@ body{
   flex-wrap: nowrap;
 }
 
+#dropdown_1{
+  position: relative;
+  bottom:;
+}
+
+#dropdown_2{
+  position: relative;
+  bottom: 2rem;
+}
+
+#dropdown_3{
+  position: relative;
+  bottom: 4rem;
+}
+
+#dropdown_4{
+  position: relative;
+  bottom: 6rem;
+}
+
+#dropdown_5{
+  position: relative;
+  bottom: 8rem;
+}
+
 .dropdown img{
   height: 1rem;
 }
