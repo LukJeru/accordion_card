@@ -1,5 +1,6 @@
 body{
   background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  background-repeat: no-repeat;
   font-size: 12px;
   font-family: "Kumbh Sans";
 }
@@ -15,6 +16,8 @@ body{
   border: none;
   border-radius: 25px;
   margin: 0 auto;
+  position: relative;
+  bottom: 7rem;
 }
 
 /*elements left column*/
@@ -37,7 +40,7 @@ body{
 
 #würfel{
   position: relative;
-  top: 28rem;
+  top: 21rem;
   left: 8rem;
   z-index: 1;
 }
