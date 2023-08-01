@@ -6,8 +6,8 @@ body{
 }
 
 .container{
-  width: 60rem;
-  height: 40rem;
+  width: 65rem;
+  height: 32rem;
   display: flex;
   background-color: white;
   display: grid;
@@ -26,7 +26,7 @@ body{
   grid-column: 1/ span 1;
   grid-row: 1/ span 8;
   background-image: url(images/bg-pattern-desktop.svg);
-  background-position: center right 1rem;
+  background-position: bottom 4rem right 1rem;
   background-size: 120%;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -34,13 +34,13 @@ body{
 
 .left img {
   position: relative;
-  top: 8rem;
+  top: 3rem;
   right: 5rem;
 }
 
 #würfel{
   position: relative;
-  top: 21rem;
+  top: 16rem;
   left: 8rem;
   z-index: 1;
 }
@@ -56,6 +56,11 @@ body{
   visibility: hidden;
 }
 
+#heading{
+  position: relative;
+  bottom: 2rem;
+}
+
 .dropdown{
   display: flex;
   flex-wrap: nowrap;
@@ -63,27 +68,27 @@ body{
 
 #dropdown_1{
   position: relative;
-  bottom:;
+  bottom: 2rem;
 }
 
 #dropdown_2{
   position: relative;
-  bottom: 2rem;
+  bottom: 4rem;
 }
 
 #dropdown_3{
   position: relative;
-  bottom: 4rem;
+  bottom: 6rem;
 }
 
 #dropdown_4{
   position: relative;
-  bottom: 6rem;
+  bottom: 8rem;
 }
 
 #dropdown_5{
   position: relative;
-  bottom: 8rem;
+  bottom: 10rem;
 }
 
 .dropdown img{
