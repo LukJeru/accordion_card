@@ -71,9 +71,21 @@ body{
   bottom: 2rem;
 }
 
+#dropdown_1 img{
+  position: relative;
+  left: 5.8rem;
+  top: 1.2rem;
+}
+
 #dropdown_2{
   position: relative;
   bottom: 4rem;
+}
+
+#dropdown_2 img{
+  position: relative;
+  left: 6rem;
+  top: 1.2rem;
 }
 
 #dropdown_3{
@@ -81,9 +93,21 @@ body{
   bottom: 6rem;
 }
 
+#dropdown_3 img{
+  position: relative;
+  left: 10.8rem;
+  top: 1.2rem;
+}
+
 #dropdown_4{
   position: relative;
   bottom: 8rem;
+}
+
+#dropdown_4 img{
+  position: relative;
+  left: 10.6rem;
+  top: 1.2rem;
 }
 
 #dropdown_5{
@@ -91,8 +115,14 @@ body{
   bottom: 10rem;
 }
 
+#dropdown_5 img{
+  position: relative;
+  left: 7.6rem;
+  top: 1.2rem;
+}
+
 .dropdown img{
-  height: 1rem;
+  height: .6rem;
 }
 
 .right h1{
