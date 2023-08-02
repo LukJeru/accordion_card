@@ -1,6 +1,7 @@
 body{
   background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
   background-repeat: no-repeat;
+  background-size: cover;
   font-size: 12px;
   font-family: "Kumbh Sans";
 }
@@ -16,8 +17,6 @@ body{
   border: none;
   border-radius: 25px;
   margin: 0 auto;
-  position: relative;
-  bottom: 7rem;
 }
 
 /*elements left column*/
@@ -26,22 +25,28 @@ body{
   grid-column: 1/ span 1;
   grid-row: 1/ span 1;
   background-image: url(images/bg-pattern-desktop.svg);
-  background-position: bottom 4rem right 1rem;
-  background-size: 120%;
+  background-position: bottom 1rem right 8rem;
+  background-size: 140%;
   background-repeat: no-repeat;
-  overflow: hidden;
 }
 
-.left img {
+.imageBorder{
+  overflow: hidden;
+  height: 100%;
+  z-index: 0;
+}
+#girl {
   position: relative;
   top: 3rem;
   right: 5rem;
+  z-index: 0;
+
 }
 
 #würfel{
   position: relative;
-  top: 16rem;
-  left: 8rem;
+  bottom: 23rem;
+  right: 7rem;
   z-index: 1;
 }
 
