@@ -11,8 +11,8 @@ body{
   display: flex;
   background-color: white;
   display: grid;
-  grid-template-columns: 5fr 1fr 5fr 1fr;
-  grid-template-rows: 2fr 3fr repeat(5, 1fr) 2fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
   border: none;
   border-radius: 25px;
   margin: 0 auto;
@@ -24,7 +24,7 @@ body{
 
 .left{
   grid-column: 1/ span 1;
-  grid-row: 1/ span 8;
+  grid-row: 1/ span 1;
   background-image: url(images/bg-pattern-desktop.svg);
   background-position: bottom 4rem right 1rem;
   background-size: 120%;
@@ -48,78 +48,27 @@ body{
 /*elements right column*/
 
 .right{
-  grid-column: 3/ span 1;
-  grid-row: 2/ span 6;
-}
-
-.right p{
-  visibility: hidden;
+  grid-column: 2/ span 1;
+  grid-row: 1/ span 1;
+  position: relative;
+  left: 2rem;
 }
 
 #heading{
   position: relative;
-  bottom: 2rem;
+  top: 2rem;
 }
 
 .dropdown{
-  display: flex;
-  flex-wrap: nowrap;
+  border-bottom: 1.2px solid hsl(240, 5%, 91%);
+  position: relative;
+  top: 2rem;
+  display: inline-flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
 }
 
-#dropdown_1{
-  position: relative;
-  bottom: 2rem;
-}
-
-#dropdown_1 img{
-  position: relative;
-  left: 5.8rem;
-  top: 1.2rem;
-}
-
-#dropdown_2{
-  position: relative;
-  bottom: 4rem;
-}
-
-#dropdown_2 img{
-  position: relative;
-  left: 6rem;
-  top: 1.2rem;
-}
-
-#dropdown_3{
-  position: relative;
-  bottom: 6rem;
-}
-
-#dropdown_3 img{
-  position: relative;
-  left: 10.8rem;
-  top: 1.2rem;
-}
-
-#dropdown_4{
-  position: relative;
-  bottom: 8rem;
-}
-
-#dropdown_4 img{
-  position: relative;
-  left: 10.6rem;
-  top: 1.2rem;
-}
-
-#dropdown_5{
-  position: relative;
-  bottom: 10rem;
-}
-
-#dropdown_5 img{
-  position: relative;
-  left: 7.6rem;
-  top: 1.2rem;
-}
 
 .dropdown img{
   height: .6rem;
@@ -132,4 +81,8 @@ body{
 .right h2{
   color: hsl(237, 12%, 33%);
   font-weight: 400;
+}
+
+.right p{
+  display:none;
 }
