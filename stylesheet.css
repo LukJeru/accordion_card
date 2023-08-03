@@ -4,11 +4,14 @@ body{
   background-size: cover;
   font-size: 12px;
   font-family: "Kumbh Sans";
+  height: 100%;
+  margin: 0;
+  background-attachment: fixed;
 }
 
 .container{
-  width: 65rem;
-  height: 32rem;
+  width: 60rem;
+  height: 30rem;
   display: flex;
   background-color: white;
   display: grid;
@@ -17,6 +20,8 @@ body{
   border: none;
   border-radius: 25px;
   margin: 0 auto;
+  position: relative;
+  top: 5rem;
 }
 
 /*elements left column*/
