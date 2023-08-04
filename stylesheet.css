@@ -96,3 +96,7 @@ body{
 .right p{
   display:none;
 }
+
+.dropdown img:hover{
+  cursor: pointer;
+}
