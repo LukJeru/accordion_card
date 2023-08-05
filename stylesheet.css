@@ -89,12 +89,17 @@ body{
 }
 
 .right h2{
-  color: hsl(237, 12%, 33%);
+  color: hsl(240, 6%, 50%);
   font-weight: 400;
 }
 
 .right p{
   display:none;
+  position: relative;
+  top: 1rem;
+  width: 80%;
+  font-size: 14px;
+  color: hsl(240, 6%, 50%);
 }
 
 .dropdown img:hover{
