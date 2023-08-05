@@ -92,3 +92,11 @@ const func5 = (event) => {
 }
 
 drop5.addEventListener("click", func5)
+
+let arr =[];
+arr.push(document.getElementById("paragraph_1"));
+arr.push(document.getElementById("paragraph_2"));
+arr.push(document.getElementById("paragraph_3"));
+arr.push(document.getElementById("paragraph_4"));
+arr.push(document.getElementById("paragraph_5"));
+let found = arr.find((element) => element.style.display === "none")
