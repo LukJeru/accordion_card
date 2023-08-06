@@ -105,3 +105,26 @@ body{
 .dropdown img:hover{
   cursor: pointer;
 }
+
+/*media query*/
+
+@media screen and (max-width: 700px) {
+  body {
+
+  }
+  .container{
+    display:flex;
+    flex-direction: column;
+    height: 60rem;
+    width: 30rem;
+  }
+
+  #girl{
+    position:relative;
+  }
+
+  #würfel{
+    position:relative;
+  }
+
+}
