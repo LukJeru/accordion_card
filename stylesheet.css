@@ -12,7 +12,6 @@ body{
 .container{
   width: 60rem;
   height: 30rem;
-  display: flex;
   background-color: white;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -108,23 +107,50 @@ body{
 
 /*media query*/
 
-@media screen and (max-width: 700px) {
-  body {
-
-  }
+@media only screen and (max-width: 700px) {
   .container{
     display:flex;
     flex-direction: column;
-    height: 60rem;
-    width: 30rem;
+    height: 50rem;
+    width: 25rem;
+    margin: 6rem auto;
+  }
+
+  .left{
+    display: flex;
+    background-image: url(images/bg-pattern-desktop.svg);
+    background-position: bottom 7.5rem right 3.6rem;
+    background-size: 18rem 21rem;
+    background-repeat: no-repeat;
+    z-index: 0;
+  }
+
+  .right{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .imageBorder{
+    position: relative;
+    bottom: 12.5rem;
+    left: 8.5rem;
+    z-index: 1;
+    overflow:visible;
   }
 
   #girl{
-    position:relative;
+    height: 16rem;
+    width: 18rem;
+    z-index: 1;
   }
 
   #würfel{
     position:relative;
+    bottom: 4rem;
+    right: 16rem;
+    width: 8rem;
+    height: 8rem;
+    z-index: 0.8;
   }
 
 }
